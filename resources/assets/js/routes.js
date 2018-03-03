@@ -15,7 +15,15 @@ let routes = [
     {
         path: '/contact',
         component: require('./views/Contact')
-    }
+    },
+
+    //404
+    {   
+        path: '*',
+        //component: fourohfour
+        component: require('./views/Fourohfour')
+    },
+
 ];
 
 export default new VueRouter({

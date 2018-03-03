@@ -7,7 +7,7 @@
           <div class="card card-default">
             <div class="card-header">Page Not Found</div>
             <div class="card-body">
-                This page not available
+                This page is not available.
             </div>
           </div>
         </div>
